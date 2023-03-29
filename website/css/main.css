@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Zen+Dots');
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+@import url('https://fonts.googleapis.com/css?family=Atomic+Age');
+@import url('https://fonts.googleapis.com/css?family=Oxanium');
+
+/*
+The font I used for the main website heading at bensta.epizy.com/starsprinter
+was downloaded from https://www.fontspace.com/aware-font-f43412 and used
+in a webkit, although it has been excluded from this version, replaced with
+Zen Dots from Google Fonts.
+*/
+
+body
+{
+	background-color: #343A40;
+	color: white;
+	font-family: "Oxanium";
+}
+
+::selection {
+  background: #87F1FF;
+  color: black;
+}
+
+.title
+{
+	font-family: "Zen Dots";
+	color: #87F1FF;
+	text-align: center;
+	padding: 10px;
+    margin-top: 10px;
+}
+
+.rightalign
+{
+    text-align: right;
+}
+.transparent-hr
+{
+    border: none;
+    clear: both;
+}
+.atomicage
+{
+    font-family: "Atomic Age";
+}
+
+/* NAVBAR */
+.navbar
+{
+	background-color: #454B52;
+	color: white;
+	font-family: "Gugi";
+}
+
+.navbarlogo
+{
+    height: 30px;
+}
+
+.navbar-brand
+{
+    margin-left: 10px;
+}
+
+.nav-item a:hover
+{
+    color: white !important;
+}
+
+.nav-active, .nav-item a:active, .nav-user
+{
+    color: #87F1FF !important;
+}
+
+/* SITE-WIDE */
+.home-heading, .crew-heading, .catalogue-heading
+{
+    font-family: "Atomic Age";
+    text-align: center;
+    color: #87F1FF;
+}
+
+.home-disclaimer, .bank-disclaimer
+{
+    color: #d4d4d4;
+}
+.home-disclaimer a
+{
+    color: white;
+}
+
+/* HOME PAGE */
+
+.new-item-col
+{
+    text-align: center;
+}
+
+.new-itempic
+{
+    height: 8cm;
+    clear: both;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.new-itemname
+{
+    font-family: "Atomic Age";
+    margin-top: 15px;
+}
+
+.new-itemname a
+{
+    color: white;
+}
+
+.new-itemname a:hover
+{
+    color: #87F1FF;
+}
+
+/* CREW PAGE */
+.crew-name
+{
+    font-family: "Atomic Age";
+    margin-left: 10px;
+}
+.crew-pic
+{
+    width: 100%;
+    border: 5px solid #24272B;
+    border-radius: 50%;
+}
+.crew-text
+{
+    margin-left: 10px;
+}
+
+/* CATALOGUE PAGE / ITEMS */
+.itempic
+{
+    height: 8cm;
+    float: left;
+    clear: both;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.itemname
+{
+    font-family: "Atomic Age";
+    margin-top: 15px;
+}
+
+.itemname a
+{
+    color: white;
+}
+
+.itemname a:hover
+{
+    color: #87F1FF;
+}
+
+.itemtrait
+{
+    margin: 10px;
+}
+
+.unavailable
+{
+    color: #d4d4d4;
+}
+
+.page-item a
+{
+    background-color: #24272B !important;
+    color: white !important;
+}
+
+.page-item .disabled-page
+{
+    background-color: #4E5257 !important;
+    color: #d4d4d4 !important;
+}
+
+.page-item a:hover
+{
+    background-color: white !important;
+    color: #24272B !important;
+    border-color: #24272B !important;
+}
+
+.page-item .active-page, .page-item a:active
+{
+    background-color: #87F1FF !important;
+    color: #24272B !important;
+    border-color: #24272B !important;
+}
+
+.editlink
+{
+    font-size: 24px;
+}
+
+/* LOGIN/SIGNUP PAGE */
+
+/* ADD ITEMS PAGE */
+
+/* PROFILE PAGE */
+.cartpic
+{
+    height: 4cm;
+    float: left;
+    clear: both;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.editcartitem a /* unused */
+{
+    color: white;
+}
+
+.editcartitem a:hover /* unused */
+{
+    color: #87F1FF;
+}
+
+.deletecartbutton
+{
+    background: none !important;
+    border: none;
+    padding: 0 !important;
+    color: white;
+}
+.deletecartbutton:hover
+{
+    background: none !important;
+    border: none;
+    padding: 0 !important;
+    color: #87F1FF;
+}
+
+/* FOOTER */
+footer
+{
+	background-color: #24272B;
+    color: #d4d4d4;
+	text-align: right;
+	padding: 10px;
+	font-family: "Gugi";
+}
+
+/* RESPONSIVE */
+@media (max-width: 767px)
+{
+    .itempic
+    {
+        float: none;
+        clear: none;
+    }
+    .itemresult
+    {
+        text-align: center;
+    }
+    .itempage-result
+    {
+        padding-top: 10px;
+    }
+}
